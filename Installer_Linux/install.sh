@@ -11,14 +11,14 @@ echo "Robot Framework installed"
 echo "========================================"
 echo "========================================"
 
-cd ..
-sudo apt-get install python-wxgtk2.8  
+cd ../..
+sudo dpkg -i libwxbase2.8.deb libgstreamer-plugins-base0.10.deb libwxgtk2.8.deb libwxgtk-media2.8.deb libgstreamer0.10.deb 28.deb  
 dpkg --list | grep "python-wxgtk2.8"
 echo "wxgtk2.8 installed"
 echo "========================================"
 echo "========================================"
 
-cd robotframework-ride-1.5.2.1
+cd Robot-Framework/robotframework-ride-1.5.2.1
 sudo python setup.py install
 find ~/ -name ride.py | grep "build" 
 echo "RIDE installed"
@@ -35,7 +35,7 @@ import Selenium2Library
 print Selenium2Library
 EOF
 
-cd ../PyMySQL-0.7.9
+cd ../../PyMySQL-0.7.9
 sudo python setup.py install
 python <<EOF
 import pymysql
@@ -45,7 +45,7 @@ EOF
 cd ../robotframework-databaselibrary-0.6
 sudo python setup.py install
 
-cd ../../Excel/natsort-3.3.0
+cd ../Excel/natsort-3.3.0
 sudo python setup.py install
 cd ../NaviNet-robotframework-excellibrary-8744913
 sudo python setup.py install

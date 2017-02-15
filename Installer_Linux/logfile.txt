@@ -543,9 +543,1336 @@ Robot Framework 3.0.1 (Python 2.7.12 on linux2)
 Robot Framework installed
 ========================================
 ========================================
-Reading package lists...
-Building dependency tree...
-Reading state information...
-E: Unable to locate package python-wxgtk2.83
-E: Couldn't find any package by glob 'python-wxgtk2.83'
-E: Couldn't find any package by regex 'python-wxgtk2.83'
+(Reading database ... 226753 files and directories currently installed.)
+Preparing to unpack libwxbase2.8.deb ...
+Unpacking libwxbase2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) over (2.8.12.1+dfsg-2ubuntu2) ...
+Setting up libwxbase2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu5) ...
+(Reading database ... 226753 files and directories currently installed.)
+Preparing to unpack libwxgtk2.8.deb ...
+Unpacking libwxgtk2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) over (2.8.12.1+dfsg-2ubuntu2) ...
+Setting up libwxgtk2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu5) ...
+(Reading database ... 226753 files and directories currently installed.)
+Preparing to unpack libwxgtk-media2.8.deb ...
+Unpacking libwxgtk-media2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) over (2.8.12.1+dfsg-2ubuntu2) ...
+Setting up libwxgtk-media2.8-0:amd64 (2.8.12.1+dfsg-2ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu5) ...
+(Reading database ... 226753 files and directories currently installed.)
+Preparing to unpack 28.deb ...
+Unpacking python-wxgtk2.8 (2.8.12.1+dfsg-2ubuntu2) over (2.8.12.1+dfsg-2ubuntu2) ...
+Setting up python-wxgtk2.8 (2.8.12.1+dfsg-2ubuntu2) ...
+ii  python-wxgtk2.8                                 2.8.12.1+dfsg-2ubuntu2                        amd64        wxWidgets Cross-platform C++ GUI toolkit (wxPython binding)
+wxgtk2.8 installed
+========================================
+========================================
+running install
+running build
+running build_py
+running build_scripts
+running install_lib
+copying build/lib.linux-x86_64-2.7/robotide/robotapi.py -> /usr/local/lib/python2.7/dist-packages/robotide
+copying build/lib.linux-x86_64-2.7/robotide/spec/librarymanager.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/xmlreaders.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/specimporter.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/librarydatabase.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/libraryfetcher.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/spec/iteminfo.py -> /usr/local/lib/python2.7/dist-packages/robotide/spec
+copying build/lib.linux-x86_64-2.7/robotide/controller/settingcontrollers.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/macrocontrollers.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/project.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/tags.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/cellinfo.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/filecontrollers.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/testexecutionresults.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/commands.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/robotdata.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/basecontroller.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/arguments.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/ui/treecontroller.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller/ui
+copying build/lib.linux-x86_64-2.7/robotide/controller/ui/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller/ui
+copying build/lib.linux-x86_64-2.7/robotide/controller/dataloader.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/tablecontrollers.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/stepcontrollers.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/controller/validators.py -> /usr/local/lib/python2.7/dist-packages/robotide/controller
+copying build/lib.linux-x86_64-2.7/robotide/publish/html/no_robot.html -> /usr/local/lib/python2.7/dist-packages/robotide/publish/html
+copying build/lib.linux-x86_64-2.7/robotide/publish/html/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/publish/html
+copying build/lib.linux-x86_64-2.7/robotide/publish/messagetype.py -> /usr/local/lib/python2.7/dist-packages/robotide/publish
+copying build/lib.linux-x86_64-2.7/robotide/publish/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/publish
+copying build/lib.linux-x86_64-2.7/robotide/publish/messages.py -> /usr/local/lib/python2.7/dist-packages/robotide/publish
+copying build/lib.linux-x86_64-2.7/robotide/publish/publisher.py -> /usr/local/lib/python2.7/dist-packages/robotide/publish
+copying build/lib.linux-x86_64-2.7/robotide/usages/UsageRunner.py -> /usr/local/lib/python2.7/dist-packages/robotide/usages
+copying build/lib.linux-x86_64-2.7/robotide/usages/commands.py -> /usr/local/lib/python2.7/dist-packages/robotide/usages
+copying build/lib.linux-x86_64-2.7/robotide/usages/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/usages
+copying build/lib.linux-x86_64-2.7/robotide/usages/usagesdialog.py -> /usr/local/lib/python2.7/dist-packages/robotide/usages
+copying build/lib.linux-x86_64-2.7/robotide/namespace/variablefetcher.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/suggesters.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/local_namespace.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/cache.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/resourcefactory.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/embeddedargs.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/namespace/namespace.py -> /usr/local/lib/python2.7/dist-packages/robotide/namespace
+copying build/lib.linux-x86_64-2.7/robotide/run/process.py -> /usr/local/lib/python2.7/dist-packages/robotide/run
+copying build/lib.linux-x86_64-2.7/robotide/run/configmanagerui.py -> /usr/local/lib/python2.7/dist-packages/robotide/run
+copying build/lib.linux-x86_64-2.7/robotide/run/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/run
+copying build/lib.linux-x86_64-2.7/robotide/run/ui.py -> /usr/local/lib/python2.7/dist-packages/robotide/run
+copying build/lib.linux-x86_64-2.7/robotide/run/runanything.py -> /usr/local/lib/python2.7/dist-packages/robotide/run
+copying build/lib.linux-x86_64-2.7/robotide/lib/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/jswriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/jsbuildingcontext.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/outputwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/xunitwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/jsexecutionresult.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/logreportwriters.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/resultwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/jsmodelbuilders.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/reporting/stringcache.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/api/logger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/api/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/api/deco.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/testdoc.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/conf/gatherfailed.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/conf/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/conf/settings.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/status.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/argumentvalidator.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/argumentresolver.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/argumentspec.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/argumentmapper.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/embedded.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/javaargumentcoercer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/arguments/argumentparser.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/dynamicmethods.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/model.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/randomizer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/importer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/handlerstore.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/runkwregister.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/signalhandler.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/context.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/outputcapture.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/handlers.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/usererrorhandler.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/defaults.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/timeouts/jython.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/timeouts/posix.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/timeouts/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/timeouts/windows.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/timeouts/ironpython.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/userkeyword.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/builder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/testlibraries.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/keywordrunner.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/runner.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/running/namespace.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/jarrunner.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/run.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/errors.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/application.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/platform.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/importer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/setter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/robotenv.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/normalizing.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/robotinspect.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/unic.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/compress.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/text.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/recommendations.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/htmlformatters.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/robottypes.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/markupwriters.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/markuputils.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/etreewrapper.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/encoding.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/frange.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/encodingsniffer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/asserts.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/escaping.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/robotpath.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/charwidth.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/utf8reader.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/ordereddict.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/robottime.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/dotdict.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/match.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/argumentparser.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/error.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/connectioncache.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/utils/misc.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/template.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/jsonwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/normaltemplate.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/htmlfilewriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/htmldata/jartemplate.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/pythonpathsetter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/namepatterns.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/modelobject.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/suitestatistics.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/tagstatistics.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/filter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/tags.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/testcase.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/configurer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/message.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/itemlist.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/tagsetter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/stats.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/statistics.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/metadata.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/keyword.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/modifier.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/imports.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/totalstatistics.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/criticality.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/testsuite.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/model/visitor.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/htmlwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/model.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/writer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/robotbuilder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/builder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/javabuilder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/xmlwriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/consoleviewer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/specbuilder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdocpkg/output.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/notfound.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/store.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/filesetter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/replacer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/tablesetter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/finders.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/variables.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/scopes.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/splitter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/isvar.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/variables/assigner.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libdoc.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Dialogs.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/dialogs_jy.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Process.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/DeprecatedBuiltIn.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/String.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/dialogs_ipy.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/dialogs_py.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Reserved.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/XML.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Telnet.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/DateTime.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/DeprecatedOperatingSystem.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/BuiltIn.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Easter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/OperatingSystem.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Collections.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Remote.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/libraries/Screenshot.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/tidy.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/htmlreader.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/model.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/datarow.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/tsvreader.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/restreader.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/restsupport.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/tablepopulators.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/txtreader.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/settings.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/populators.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/parsing/comments.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/librarylogger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/logger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/pyloggingconf.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/filelogger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/loggerhelper.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/stdoutlogsplitter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/listeners.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/librarylisteners.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/debugfile.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/console/dotted.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/console/verbose.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/console/highlighting.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/console/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/console/quiet.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/xmllogger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/output/output.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/htmlformatter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/rowsplitter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/aligners.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/filewriters.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/dataextractor.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/formatters.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/datafilewriter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/writer/htmltemplate.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/version.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/testcase.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/configurer.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/message.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/executionerrors.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/xmlelementhandlers.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/executionresult.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/keywordremover.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/resultbuilder.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/messagefilter.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/flattenkeywordmatcher.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/keyword.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/testsuite.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/visitor.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/merger.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/result/suiteteardownfailed.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result
+copying build/lib.linux-x86_64-2.7/robotide/lib/robot/rebot.py -> /usr/local/lib/python2.7/dist-packages/robotide/lib/robot
+copying build/lib.linux-x86_64-2.7/robotide/editor/grid.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/flowsizer.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/tooltips.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/macroeditors.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/tags.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/settingeditors.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/clipboard.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/gridcolorizer.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/popupwindow.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/kweditor.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/listeditor.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/texteditor.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/robotframeworklexer.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/fieldeditors.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/editorcreator.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/editors.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/formatters.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/editordialogs.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/contentassist.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/editor/dialoghelps.py -> /usr/local/lib/python2.7/dist-packages/robotide/editor
+copying build/lib.linux-x86_64-2.7/robotide/action/action.py -> /usr/local/lib/python2.7/dist-packages/robotide/action
+copying build/lib.linux-x86_64-2.7/robotide/action/shortcut.py -> /usr/local/lib/python2.7/dist-packages/robotide/action
+copying build/lib.linux-x86_64-2.7/robotide/action/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/action
+copying build/lib.linux-x86_64-2.7/robotide/action/actioninfo.py -> /usr/local/lib/python2.7/dist-packages/robotide/action
+copying build/lib.linux-x86_64-2.7/robotide/preferences/settings.cfg -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/saving.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/widgets.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/editor.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/excludes.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/settings.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/editors.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/configobj.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/preferences/imports.py -> /usr/local/lib/python2.7/dist-packages/robotide/preferences
+copying build/lib.linux-x86_64-2.7/robotide/utils/versioncomparator.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/utils/printing.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/utils/variablematcher.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/utils/eventhandler.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/utils/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/utils/highlightmatcher.py -> /usr/local/lib/python2.7/dist-packages/robotide/utils
+copying build/lib.linux-x86_64-2.7/robotide/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide
+copying build/lib.linux-x86_64-2.7/robotide/ui/tagdialogs.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/resourcedialogs.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/searchdots.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/review.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/preview.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/filedialogs.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/keywordsearch.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/mainframe.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/notebook.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/progress.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/actiontriggers.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/pluginmanager.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/treenodehandlers.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/images.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/ui/tree.py -> /usr/local/lib/python2.7/dist-packages/robotide/ui
+copying build/lib.linux-x86_64-2.7/robotide/context/logger.py -> /usr/local/lib/python2.7/dist-packages/robotide/context
+copying build/lib.linux-x86_64-2.7/robotide/context/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/context
+copying build/lib.linux-x86_64-2.7/robotide/context/coreplugins.py -> /usr/local/lib/python2.7/dist-packages/robotide/context
+copying build/lib.linux-x86_64-2.7/robotide/widgets/robot_running.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/sizers.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/Kw32.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/label.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/robot_passed.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/control_play.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/folder_wrench.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/report.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/kw_search_button.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/robot.ico -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/dollar.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/htmlwindow.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/text.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/page_white.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/control_fastforward.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/popupmenu.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/control_stop.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/test_search.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/page_white_gear.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/switch.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/database_refresh.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/folder_excluded.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/T32.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/button.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/test_search_button.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/font.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/control_pause.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/robot.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/down_arrow.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/process.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/images.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/dialog.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/cog.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/list.py -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/kw_search.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/robot_failed.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/widgets/folder.png -> /usr/local/lib/python2.7/dist-packages/robotide/widgets
+copying build/lib.linux-x86_64-2.7/robotide/searchtests/searchtests.py -> /usr/local/lib/python2.7/dist-packages/robotide/searchtests
+copying build/lib.linux-x86_64-2.7/robotide/searchtests/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/searchtests
+copying build/lib.linux-x86_64-2.7/robotide/searchtests/dialogsearchtests.py -> /usr/local/lib/python2.7/dist-packages/robotide/searchtests
+copying build/lib.linux-x86_64-2.7/robotide/pluginapi/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/pluginapi
+copying build/lib.linux-x86_64-2.7/robotide/pluginapi/plugin.py -> /usr/local/lib/python2.7/dist-packages/robotide/pluginapi
+copying build/lib.linux-x86_64-2.7/robotide/pluginapi/tree_aware_plugin_mixin.py -> /usr/local/lib/python2.7/dist-packages/robotide/pluginapi
+copying build/lib.linux-x86_64-2.7/robotide/validators/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/validators
+copying build/lib.linux-x86_64-2.7/robotide/version.py -> /usr/local/lib/python2.7/dist-packages/robotide
+copying build/lib.linux-x86_64-2.7/robotide/recentfiles/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/recentfiles
+copying build/lib.linux-x86_64-2.7/robotide/recentfiles/recentfiles.py -> /usr/local/lib/python2.7/dist-packages/robotide/recentfiles
+copying build/lib.linux-x86_64-2.7/robotide/contrib/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/TestRunnerAgent.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/usages.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/testrunner.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/testrunnerplugin.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/contrib/testrunner/runprofiles.py -> /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner
+copying build/lib.linux-x86_64-2.7/robotide/application/application.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/pluginloader.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/releasenotes.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/updatenotifier.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/editorprovider.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/pluginconnector.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/application/debugconsole.py -> /usr/local/lib/python2.7/dist-packages/robotide/application
+copying build/lib.linux-x86_64-2.7/robotide/log/__init__.py -> /usr/local/lib/python2.7/dist-packages/robotide/log
+copying build/lib.linux-x86_64-2.7/robotide/log/log.py -> /usr/local/lib/python2.7/dist-packages/robotide/log
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/robotapi.py to robotapi.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/librarymanager.py to librarymanager.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/xmlreaders.py to xmlreaders.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/specimporter.py to specimporter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/librarydatabase.py to librarydatabase.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/libraryfetcher.py to libraryfetcher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/spec/iteminfo.py to iteminfo.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/settingcontrollers.py to settingcontrollers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/macrocontrollers.py to macrocontrollers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/project.py to project.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/tags.py to tags.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/cellinfo.py to cellinfo.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/filecontrollers.py to filecontrollers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/testexecutionresults.py to testexecutionresults.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/commands.py to commands.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/robotdata.py to robotdata.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/basecontroller.py to basecontroller.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/arguments.py to arguments.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/ui/treecontroller.py to treecontroller.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/ui/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/dataloader.py to dataloader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/tablecontrollers.py to tablecontrollers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/stepcontrollers.py to stepcontrollers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/controller/validators.py to validators.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/publish/html/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/publish/messagetype.py to messagetype.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/publish/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/publish/messages.py to messages.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/publish/publisher.py to publisher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/usages/UsageRunner.py to UsageRunner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/usages/commands.py to commands.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/usages/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/usages/usagesdialog.py to usagesdialog.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/variablefetcher.py to variablefetcher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/suggesters.py to suggesters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/local_namespace.py to local_namespace.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/cache.py to cache.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/resourcefactory.py to resourcefactory.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/embeddedargs.py to embeddedargs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/namespace/namespace.py to namespace.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/run/process.py to process.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/run/configmanagerui.py to configmanagerui.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/run/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/run/ui.py to ui.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/run/runanything.py to runanything.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/jswriter.py to jswriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/jsbuildingcontext.py to jsbuildingcontext.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/outputwriter.py to outputwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/xunitwriter.py to xunitwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/jsexecutionresult.py to jsexecutionresult.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/logreportwriters.py to logreportwriters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/resultwriter.py to resultwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/jsmodelbuilders.py to jsmodelbuilders.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/reporting/stringcache.py to stringcache.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api/logger.py to logger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/api/deco.py to deco.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/testdoc.py to testdoc.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf/gatherfailed.py to gatherfailed.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/conf/settings.py to settings.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/status.py to status.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/argumentvalidator.py to argumentvalidator.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/argumentresolver.py to argumentresolver.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/argumentspec.py to argumentspec.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/argumentmapper.py to argumentmapper.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/embedded.py to embedded.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/javaargumentcoercer.py to javaargumentcoercer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/arguments/argumentparser.py to argumentparser.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/dynamicmethods.py to dynamicmethods.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/model.py to model.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/randomizer.py to randomizer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/importer.py to importer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/handlerstore.py to handlerstore.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/runkwregister.py to runkwregister.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/signalhandler.py to signalhandler.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/context.py to context.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/outputcapture.py to outputcapture.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/handlers.py to handlers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/usererrorhandler.py to usererrorhandler.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/defaults.py to defaults.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts/jython.py to jython.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts/posix.py to posix.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts/windows.py to windows.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/timeouts/ironpython.py to ironpython.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/userkeyword.py to userkeyword.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/builder.py to builder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/testlibraries.py to testlibraries.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/keywordrunner.py to keywordrunner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/runner.py to runner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/running/namespace.py to namespace.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/jarrunner.py to jarrunner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/run.py to run.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/errors.py to errors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/application.py to application.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/platform.py to platform.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/importer.py to importer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/setter.py to setter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/robotenv.py to robotenv.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/normalizing.py to normalizing.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/robotinspect.py to robotinspect.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/unic.py to unic.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/compress.py to compress.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/text.py to text.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/recommendations.py to recommendations.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/htmlformatters.py to htmlformatters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/robottypes.py to robottypes.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/markupwriters.py to markupwriters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/markuputils.py to markuputils.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/etreewrapper.py to etreewrapper.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/encoding.py to encoding.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/frange.py to frange.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/encodingsniffer.py to encodingsniffer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/asserts.py to asserts.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/escaping.py to escaping.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/robotpath.py to robotpath.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/charwidth.py to charwidth.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/utf8reader.py to utf8reader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/ordereddict.py to ordereddict.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/robottime.py to robottime.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/dotdict.py to dotdict.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/match.py to match.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/argumentparser.py to argumentparser.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/error.py to error.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/connectioncache.py to connectioncache.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/utils/misc.py to misc.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/template.py to template.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/jsonwriter.py to jsonwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/normaltemplate.py to normaltemplate.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/htmlfilewriter.py to htmlfilewriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/htmldata/jartemplate.py to jartemplate.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/pythonpathsetter.py to pythonpathsetter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/namepatterns.py to namepatterns.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/modelobject.py to modelobject.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/suitestatistics.py to suitestatistics.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/tagstatistics.py to tagstatistics.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/filter.py to filter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/tags.py to tags.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/testcase.py to testcase.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/configurer.py to configurer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/message.py to message.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/itemlist.py to itemlist.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/tagsetter.py to tagsetter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/stats.py to stats.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/statistics.py to statistics.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/metadata.py to metadata.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/keyword.py to keyword.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/modifier.py to modifier.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/imports.py to imports.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/totalstatistics.py to totalstatistics.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/criticality.py to criticality.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/testsuite.py to testsuite.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/model/visitor.py to visitor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/htmlwriter.py to htmlwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/model.py to model.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/writer.py to writer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/robotbuilder.py to robotbuilder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/builder.py to builder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/javabuilder.py to javabuilder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/xmlwriter.py to xmlwriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/consoleviewer.py to consoleviewer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/specbuilder.py to specbuilder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdocpkg/output.py to output.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/notfound.py to notfound.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/store.py to store.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/filesetter.py to filesetter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/replacer.py to replacer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/tablesetter.py to tablesetter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/finders.py to finders.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/variables.py to variables.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/scopes.py to scopes.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/splitter.py to splitter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/isvar.py to isvar.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/variables/assigner.py to assigner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libdoc.py to libdoc.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Dialogs.py to Dialogs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/dialogs_jy.py to dialogs_jy.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Process.py to Process.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/DeprecatedBuiltIn.py to DeprecatedBuiltIn.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/String.py to String.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/dialogs_ipy.py to dialogs_ipy.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/dialogs_py.py to dialogs_py.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Reserved.py to Reserved.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/XML.py to XML.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Telnet.py to Telnet.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/DateTime.py to DateTime.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/DeprecatedOperatingSystem.py to DeprecatedOperatingSystem.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/BuiltIn.py to BuiltIn.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Easter.py to Easter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/OperatingSystem.py to OperatingSystem.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Collections.py to Collections.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Remote.py to Remote.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/libraries/Screenshot.py to Screenshot.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/tidy.py to tidy.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/htmlreader.py to htmlreader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/model.py to model.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/datarow.py to datarow.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/tsvreader.py to tsvreader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/restreader.py to restreader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/restsupport.py to restsupport.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/tablepopulators.py to tablepopulators.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/txtreader.py to txtreader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/settings.py to settings.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/populators.py to populators.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/parsing/comments.py to comments.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/librarylogger.py to librarylogger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/logger.py to logger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/pyloggingconf.py to pyloggingconf.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/filelogger.py to filelogger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/loggerhelper.py to loggerhelper.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/stdoutlogsplitter.py to stdoutlogsplitter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/listeners.py to listeners.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/librarylisteners.py to librarylisteners.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/debugfile.py to debugfile.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console/dotted.py to dotted.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console/verbose.py to verbose.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console/highlighting.py to highlighting.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/console/quiet.py to quiet.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/xmllogger.py to xmllogger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/output/output.py to output.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/htmlformatter.py to htmlformatter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/rowsplitter.py to rowsplitter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/aligners.py to aligners.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/filewriters.py to filewriters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/dataextractor.py to dataextractor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/formatters.py to formatters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/datafilewriter.py to datafilewriter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/writer/htmltemplate.py to htmltemplate.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/version.py to version.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/testcase.py to testcase.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/configurer.py to configurer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/message.py to message.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/executionerrors.py to executionerrors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/xmlelementhandlers.py to xmlelementhandlers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/executionresult.py to executionresult.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/keywordremover.py to keywordremover.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/resultbuilder.py to resultbuilder.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/messagefilter.py to messagefilter.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/flattenkeywordmatcher.py to flattenkeywordmatcher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/keyword.py to keyword.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/testsuite.py to testsuite.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/visitor.py to visitor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/merger.py to merger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/result/suiteteardownfailed.py to suiteteardownfailed.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/lib/robot/rebot.py to rebot.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/grid.py to grid.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/flowsizer.py to flowsizer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/tooltips.py to tooltips.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/macroeditors.py to macroeditors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/tags.py to tags.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/settingeditors.py to settingeditors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/clipboard.py to clipboard.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/gridcolorizer.py to gridcolorizer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/popupwindow.py to popupwindow.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/kweditor.py to kweditor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/listeditor.py to listeditor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/texteditor.py to texteditor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/robotframeworklexer.py to robotframeworklexer.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/fieldeditors.py to fieldeditors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/editorcreator.py to editorcreator.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/editors.py to editors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/formatters.py to formatters.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/editordialogs.py to editordialogs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/contentassist.py to contentassist.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/editor/dialoghelps.py to dialoghelps.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/action/action.py to action.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/action/shortcut.py to shortcut.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/action/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/action/actioninfo.py to actioninfo.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/saving.py to saving.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/widgets.py to widgets.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/editor.py to editor.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/excludes.py to excludes.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/settings.py to settings.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/editors.py to editors.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/configobj.py to configobj.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/preferences/imports.py to imports.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/versioncomparator.py to versioncomparator.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/printing.py to printing.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/variablematcher.py to variablematcher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/eventhandler.py to eventhandler.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/utils/highlightmatcher.py to highlightmatcher.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/tagdialogs.py to tagdialogs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/resourcedialogs.py to resourcedialogs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/searchdots.py to searchdots.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/review.py to review.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/preview.py to preview.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/filedialogs.py to filedialogs.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/keywordsearch.py to keywordsearch.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/mainframe.py to mainframe.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/notebook.py to notebook.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/progress.py to progress.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/actiontriggers.py to actiontriggers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/pluginmanager.py to pluginmanager.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/treenodehandlers.py to treenodehandlers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/images.py to images.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/ui/tree.py to tree.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/context/logger.py to logger.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/context/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/context/coreplugins.py to coreplugins.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/sizers.py to sizers.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/label.py to label.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/htmlwindow.py to htmlwindow.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/text.py to text.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/popupmenu.py to popupmenu.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/button.py to button.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/font.py to font.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/images.py to images.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/dialog.py to dialog.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/widgets/list.py to list.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/searchtests/searchtests.py to searchtests.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/searchtests/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/searchtests/dialogsearchtests.py to dialogsearchtests.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/pluginapi/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/pluginapi/plugin.py to plugin.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/pluginapi/tree_aware_plugin_mixin.py to tree_aware_plugin_mixin.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/validators/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/version.py to version.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/recentfiles/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/recentfiles/recentfiles.py to recentfiles.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/TestRunnerAgent.py to TestRunnerAgent.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/usages.py to usages.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/testrunner.py to testrunner.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/testrunnerplugin.py to testrunnerplugin.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/contrib/testrunner/runprofiles.py to runprofiles.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/application.py to application.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/pluginloader.py to pluginloader.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/releasenotes.py to releasenotes.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/updatenotifier.py to updatenotifier.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/editorprovider.py to editorprovider.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/pluginconnector.py to pluginconnector.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/application/debugconsole.py to debugconsole.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/log/__init__.py to __init__.pyc
+byte-compiling /usr/local/lib/python2.7/dist-packages/robotide/log/log.py to log.pyc
+running install_scripts
+copying build/scripts-2.7/ride_postinstall.py -> /usr/local/bin
+copying build/scripts-2.7/ride.py -> /usr/local/bin
+changing mode of /usr/local/bin/ride_postinstall.py to 755
+changing mode of /usr/local/bin/ride.py to 755
+running install_egg_info
+Removing /usr/local/lib/python2.7/dist-packages/robotframework_ride-1.5.2.1.egg-info
+Writing /usr/local/lib/python2.7/dist-packages/robotframework_ride-1.5.2.1.egg-info
+/home/samueldeng/Github/Autoframework_Installer/Installer_Linux/Robot-Framework/robotframework-ride-1.5.2.1/build/scripts-2.7/ride.py
+/home/samueldeng/Github/Autoframework_Installer/Installer_Windows/Robot-Framework/robotframework-ride-1.5.2.1/build/scripts-2.7/ride.py
+/home/samueldeng/Autoframework/Installer_Linux/Robot-Framework/robotframework-ride-1.5.2.1/build/scripts-2.7/ride.py
+/home/samueldeng/Autoframework/Installer_Windows/Robot-Framework/robotframework-ride-1.5.2.1/build/scripts-2.7/ride.py
+/home/samueldeng/Installer_Linux/Robot-Framework/robotframework-ride-1.5.2.1/build/scripts-2.7/ride.py
+/home/samueldeng/bin/RIDE-1.5.2.1/build/scripts-2.7/ride.py
+RIDE installed
+========================================
+========================================
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/robotframework_selenium2library.egg-info/requires.txt
+writing src/robotframework_selenium2library.egg-info/PKG-INFO
+writing top-level names to src/robotframework_selenium2library.egg-info/top_level.txt
+writing dependency_links to src/robotframework_selenium2library.egg-info/dependency_links.txt
+reading manifest file 'src/robotframework_selenium2library.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '*/*.txt'
+warning: no previously-included files found matching '*/*.rst'
+warning: no previously-included files matching '*.pyc' found under directory 'src'
+writing manifest file 'src/robotframework_selenium2library.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/Selenium2Library
+creating build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_waiting.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_selectelement.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_runonfailure.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_formelement.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/__init__.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_browsermanagement.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_screenshot.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_logging.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_alert.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_javascript.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_element.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/keywordgroup.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_cookie.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+copying build/lib.linux-x86_64-2.7/Selenium2Library/keywords/_tableelement.py -> build/bdist.linux-x86_64/egg/Selenium2Library/keywords
+creating build/bdist.linux-x86_64/egg/Selenium2Library/utils
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/librarylistener.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/browsercache.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/__init__.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils
+creating build/bdist.linux-x86_64/egg/Selenium2Library/utils/events
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/events/event.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils/events
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/events/__init__.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils/events
+copying build/lib.linux-x86_64-2.7/Selenium2Library/utils/events/scope_event.py -> build/bdist.linux-x86_64/egg/Selenium2Library/utils/events
+copying build/lib.linux-x86_64-2.7/Selenium2Library/__init__.py -> build/bdist.linux-x86_64/egg/Selenium2Library
+creating build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/locators/elementfinder.py -> build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/locators/customlocator.py -> build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/locators/__init__.py -> build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/locators/windowmanager.py -> build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/locators/tableelementfinder.py -> build/bdist.linux-x86_64/egg/Selenium2Library/locators
+copying build/lib.linux-x86_64-2.7/Selenium2Library/version.py -> build/bdist.linux-x86_64/egg/Selenium2Library
+copying build/lib.linux-x86_64-2.7/Selenium2Library/webdrivermonkeypatches.py -> build/bdist.linux-x86_64/egg/Selenium2Library
+creating build/bdist.linux-x86_64/egg/Selenium2Library/resources
+creating build/bdist.linux-x86_64/egg/Selenium2Library/resources/firefoxprofile
+copying build/lib.linux-x86_64-2.7/Selenium2Library/resources/firefoxprofile/localstore.rdf -> build/bdist.linux-x86_64/egg/Selenium2Library/resources/firefoxprofile
+copying build/lib.linux-x86_64-2.7/Selenium2Library/resources/firefoxprofile/prefs.js -> build/bdist.linux-x86_64/egg/Selenium2Library/resources/firefoxprofile
+copying build/lib.linux-x86_64-2.7/ez_setup.py -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_waiting.py to _waiting.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_selectelement.py to _selectelement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_runonfailure.py to _runonfailure.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_formelement.py to _formelement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_browsermanagement.py to _browsermanagement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_screenshot.py to _screenshot.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_logging.py to _logging.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_alert.py to _alert.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_javascript.py to _javascript.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_element.py to _element.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/keywordgroup.py to keywordgroup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_cookie.py to _cookie.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/keywords/_tableelement.py to _tableelement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/librarylistener.py to librarylistener.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/browsercache.py to browsercache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/events/event.py to event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/events/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/utils/events/scope_event.py to scope_event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/locators/elementfinder.py to elementfinder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/locators/customlocator.py to customlocator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/locators/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/locators/windowmanager.py to windowmanager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/locators/tableelementfinder.py to tableelementfinder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Selenium2Library/webdrivermonkeypatches.py to webdrivermonkeypatches.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ez_setup.py to ez_setup.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/robotframework_selenium2library.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/robotframework_selenium2library.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/robotframework_selenium2library.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/robotframework_selenium2library.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/robotframework_selenium2library.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+ez_setup: module MAY be using inspect.getsourcefile
+Selenium2Library.keywords._browsermanagement: module references __file__
+creating 'dist/robotframework_selenium2library-1.8.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing robotframework_selenium2library-1.8.0-py2.7.egg
+removing '/usr/local/lib/python2.7/dist-packages/robotframework_selenium2library-1.8.0-py2.7.egg' (and everything under it)
+creating /usr/local/lib/python2.7/dist-packages/robotframework_selenium2library-1.8.0-py2.7.egg
+Extracting robotframework_selenium2library-1.8.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+robotframework-selenium2library 1.8.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/robotframework_selenium2library-1.8.0-py2.7.egg
+Processing dependencies for robotframework-selenium2library==1.8.0
+Searching for robotframework==3.0.1
+Best match: robotframework 3.0.1
+Processing robotframework-3.0.1-py2.7.egg
+robotframework 3.0.1 is already the active version in easy-install.pth
+Installing rebot script to /usr/local/bin
+Installing pybot script to /usr/local/bin
+Installing robot script to /usr/local/bin
+
+Using /usr/local/lib/python2.7/dist-packages/robotframework-3.0.1-py2.7.egg
+Searching for selenium==3.0.2
+Best match: selenium 3.0.2
+Adding selenium 3.0.2 to easy-install.pth file
+
+Using /usr/local/lib/python2.7/dist-packages
+Searching for decorator==4.0.10
+Best match: decorator 4.0.10
+Adding decorator 4.0.10 to easy-install.pth file
+
+Using /usr/local/lib/python2.7/dist-packages
+Finished processing dependencies for robotframework-selenium2library==1.8.0
+<module 'Selenium2Library' from '/usr/local/lib/python2.7/dist-packages/Selenium2Library/__init__.pyc'>
+running install
+running bdist_egg
+running egg_info
+writing PyMySQL.egg-info/PKG-INFO
+writing top-level names to PyMySQL.egg-info/top_level.txt
+writing dependency_links to PyMySQL.egg-info/dependency_links.txt
+reading manifest file 'PyMySQL.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'PyMySQL.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/cursors.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/converters.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/util.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/times.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/__init__.py -> build/bdist.linux-x86_64/egg/pymysql
+creating build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/CR.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/COMMAND.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/FIELD_TYPE.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/ER.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/__init__.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/FLAG.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/CLIENT.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/constants/SERVER_STATUS.py -> build/bdist.linux-x86_64/egg/pymysql/constants
+copying build/lib.linux-x86_64-2.7/pymysql/err.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/connections.py -> build/bdist.linux-x86_64/egg/pymysql
+creating build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_basic.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_optionfile.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_issues.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_connection.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_converters.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_DictCursor.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+creating build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/__init__.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty
+creating build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/__init__.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/capabilities.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py -> build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_SSCursor.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_nextset.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_err.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/__init__.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_cursor.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/test_load_local.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/tests/base.py -> build/bdist.linux-x86_64/egg/pymysql/tests
+copying build/lib.linux-x86_64-2.7/pymysql/optionfile.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/_socketio.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/charset.py -> build/bdist.linux-x86_64/egg/pymysql
+copying build/lib.linux-x86_64-2.7/pymysql/_compat.py -> build/bdist.linux-x86_64/egg/pymysql
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/cursors.py to cursors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/converters.py to converters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/times.py to times.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/CR.py to CR.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/COMMAND.py to COMMAND.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/FIELD_TYPE.py to FIELD_TYPE.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/ER.py to ER.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/FLAG.py to FLAG.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/CLIENT.py to CLIENT.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/constants/SERVER_STATUS.py to SERVER_STATUS.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/err.py to err.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/connections.py to connections.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_optionfile.py to test_optionfile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_issues.py to test_issues.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_connection.py to test_connection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_converters.py to test_converters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_DictCursor.py to test_DictCursor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py to dbapi20.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py to test_MySQLdb_capabilities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py to test_MySQLdb_nonstandard.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/capabilities.py to capabilities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py to test_MySQLdb_dbapi20.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_SSCursor.py to test_SSCursor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_nextset.py to test_nextset.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_err.py to test_err.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_cursor.py to test_cursor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/test_load_local.py to test_load_local.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/tests/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/optionfile.py to optionfile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/_socketio.py to _socketio.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/charset.py to charset.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pymysql/_compat.py to _compat.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyMySQL.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyMySQL.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyMySQL.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyMySQL.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pymysql.tests.base: module references __file__
+pymysql.tests.test_load_local: module references __file__
+creating 'dist/PyMySQL-0.7.9-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyMySQL-0.7.9-py2.7.egg
+removing '/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.9-py2.7.egg' (and everything under it)
+creating /usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.9-py2.7.egg
+Extracting PyMySQL-0.7.9-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+PyMySQL 0.7.9 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.9-py2.7.egg
+Processing dependencies for PyMySQL==0.7.9
+Finished processing dependencies for PyMySQL==0.7.9
+<module 'pymysql' from 'pymysql/__init__.pyc'>
+running install
+running build
+running build_py
+running install_lib
+running install_egg_info
+Removing /usr/local/lib/python2.7/dist-packages/robotframework_databaselibrary-0.6.egg-info
+Writing /usr/local/lib/python2.7/dist-packages/robotframework_databaselibrary-0.6.egg-info
+running install
+running bdist_egg
+running egg_info
+writing natsort.egg-info/PKG-INFO
+writing top-level names to natsort.egg-info/top_level.txt
+writing dependency_links to natsort.egg-info/dependency_links.txt
+writing entry points to natsort.egg-info/entry_points.txt
+reading manifest file 'natsort.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'natsort/__pycache__'
+writing manifest file 'natsort.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/natsort
+copying build/lib.linux-x86_64-2.7/natsort/__main__.py -> build/bdist.linux-x86_64/egg/natsort
+copying build/lib.linux-x86_64-2.7/natsort/natsort.py -> build/bdist.linux-x86_64/egg/natsort
+copying build/lib.linux-x86_64-2.7/natsort/__init__.py -> build/bdist.linux-x86_64/egg/natsort
+copying build/lib.linux-x86_64-2.7/natsort/py23compat.py -> build/bdist.linux-x86_64/egg/natsort
+copying build/lib.linux-x86_64-2.7/natsort/_version.py -> build/bdist.linux-x86_64/egg/natsort
+byte-compiling build/bdist.linux-x86_64/egg/natsort/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/natsort/natsort.py to natsort.pyc
+byte-compiling build/bdist.linux-x86_64/egg/natsort/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/natsort/py23compat.py to py23compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/natsort/_version.py to _version.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying natsort.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying natsort.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying natsort.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying natsort.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying natsort.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/natsort-3.3.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing natsort-3.3.0-py2.7.egg
+Removing /usr/local/lib/python2.7/dist-packages/natsort-3.3.0-py2.7.egg
+Copying natsort-3.3.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+natsort 3.3.0 is already the active version in easy-install.pth
+Installing natsort script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/natsort-3.3.0-py2.7.egg
+Processing dependencies for natsort==3.3.0
+Finished processing dependencies for natsort==3.3.0
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+  warnings.warn(msg)
+running install
+running build
+running build_py
+running install_lib
+running install_data
+running install_egg_info
+Removing /usr/local/lib/python2.7/dist-packages/robotframework_excellibrary-0.0.2.egg-info
+Writing /usr/local/lib/python2.7/dist-packages/robotframework_excellibrary-0.0.2.egg-info
+running install
+running bdist_egg
+running egg_info
+writing requirements to xlutils.egg-info/requires.txt
+writing xlutils.egg-info/PKG-INFO
+writing top-level names to xlutils.egg-info/top_level.txt
+writing dependency_links to xlutils.egg-info/dependency_links.txt
+writing entry points to xlutils.egg-info/entry_points.txt
+reading manifest file 'xlutils.egg-info/SOURCES.txt'
+writing manifest file 'xlutils.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/save.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/styles.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/filter.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/__init__.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/view.py -> build/bdist.linux-x86_64/egg/xlutils
+creating build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_filter.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/datetime.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/sample.xlsx -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_view.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/__init__.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/testall.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/ragged.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_save.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_docs.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_styles.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/fixtures.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/date.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/testnoformatting.xls -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/tests/test_copy.py -> build/bdist.linux-x86_64/egg/xlutils/tests
+copying build/lib.linux-x86_64-2.7/xlutils/license.txt -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/version.txt -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/margins.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/display.py -> build/bdist.linux-x86_64/egg/xlutils
+copying build/lib.linux-x86_64-2.7/xlutils/copy.py -> build/bdist.linux-x86_64/egg/xlutils
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/save.py to save.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/styles.py to styles.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/filter.py to filter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_filter.py to test_filter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_view.py to test_view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_save.py to test_save.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_docs.py to test_docs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_styles.py to test_styles.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/fixtures.py to fixtures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/tests/test_copy.py to test_copy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/margins.py to margins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/display.py to display.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlutils/copy.py to copy.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlutils.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating 'dist/xlutils-1.7.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing xlutils-1.7.1-py2.7.egg
+removing '/usr/local/lib/python2.7/dist-packages/xlutils-1.7.1-py2.7.egg' (and everything under it)
+creating /usr/local/lib/python2.7/dist-packages/xlutils-1.7.1-py2.7.egg
+Extracting xlutils-1.7.1-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+xlutils 1.7.1 is already the active version in easy-install.pth
+Installing margins script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/xlutils-1.7.1-py2.7.egg
+Processing dependencies for xlutils==1.7.1
+Searching for xlwt==1.2.0
+Best match: xlwt 1.2.0
+Processing xlwt-1.2.0-py2.7.egg
+xlwt 1.2.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/xlwt-1.2.0-py2.7.egg
+Searching for xlrd==1.0.0
+Best match: xlrd 1.0.0
+Processing xlrd-1.0.0-py2.7.egg
+xlrd 1.0.0 is already the active version in easy-install.pth
+Installing runxlrd.py script to /usr/local/bin
+
+Using /usr/local/lib/python2.7/dist-packages/xlrd-1.0.0-py2.7.egg
+Finished processing dependencies for xlutils==1.7.1
+running install
+running bdist_egg
+running egg_info
+writing xlrd.egg-info/PKG-INFO
+writing top-level names to xlrd.egg-info/top_level.txt
+writing dependency_links to xlrd.egg-info/dependency_links.txt
+reading manifest file 'xlrd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.html'
+writing manifest file 'xlrd.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/formatting.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/licences.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/timemachine.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/info.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/book.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/biffh.py -> build/bdist.linux-x86_64/egg/xlrd
+creating build/bdist.linux-x86_64/egg/xlrd/doc
+copying build/lib.linux-x86_64-2.7/xlrd/doc/xlrd.html -> build/bdist.linux-x86_64/egg/xlrd/doc
+copying build/lib.linux-x86_64-2.7/xlrd/doc/compdoc.html -> build/bdist.linux-x86_64/egg/xlrd/doc
+copying build/lib.linux-x86_64-2.7/xlrd/sheet.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/__init__.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/formula.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/xldate.py -> build/bdist.linux-x86_64/egg/xlrd
+creating build/bdist.linux-x86_64/egg/xlrd/examples
+copying build/lib.linux-x86_64-2.7/xlrd/examples/xlrdnameAPIdemo.py -> build/bdist.linux-x86_64/egg/xlrd/examples
+copying build/lib.linux-x86_64-2.7/xlrd/examples/namesdemo.xls -> build/bdist.linux-x86_64/egg/xlrd/examples
+copying build/lib.linux-x86_64-2.7/xlrd/xlsx.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib.linux-x86_64-2.7/xlrd/compdoc.py -> build/bdist.linux-x86_64/egg/xlrd
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/formatting.py to formatting.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/licences.py to licences.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/timemachine.py to timemachine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/info.py to info.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/book.py to book.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/biffh.py to biffh.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/sheet.py to sheet.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/formula.py to formula.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/xldate.py to xldate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/examples/xlrdnameAPIdemo.py to xlrdnameAPIdemo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/xlsx.py to xlsx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/compdoc.py to compdoc.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/runxlrd.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/runxlrd.py to 755
+copying xlrd.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+xlrd.xlsx: module references __file__
+creating 'dist/xlrd-1.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing xlrd-1.0.0-py2.7.egg
+removing '/usr/local/lib/python2.7/dist-packages/xlrd-1.0.0-py2.7.egg' (and everything under it)
+creating /usr/local/lib/python2.7/dist-packages/xlrd-1.0.0-py2.7.egg
+Extracting xlrd-1.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+xlrd 1.0.0 is already the active version in easy-install.pth
+Installing runxlrd.py script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/xlrd-1.0.0-py2.7.egg
+Processing dependencies for xlrd==1.0.0
+Finished processing dependencies for xlrd==1.0.0
+running install
+running bdist_egg
+running egg_info
+writing xlwt.egg-info/PKG-INFO
+writing top-level names to xlwt.egg-info/top_level.txt
+writing dependency_links to xlwt.egg-info/dependency_links.txt
+reading manifest file 'xlwt.egg-info/SOURCES.txt'
+writing manifest file 'xlwt.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Row.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Workbook.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/excel-formula.g -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Formatting.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Column.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/ExcelFormula.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Worksheet.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Bitmap.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/CompoundDoc.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Style.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/ExcelFormulaLexer.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/ExcelFormulaParser.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/compat.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/__init__.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Cell.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/antlr.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/BIFFRecords.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/ExcelMagic.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/Utils.py -> build/bdist.linux-x86_64/egg/xlwt
+copying build/lib.linux-x86_64-2.7/xlwt/UnicodeUtils.py -> build/bdist.linux-x86_64/egg/xlwt
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Row.py to Row.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Workbook.py to Workbook.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Formatting.py to Formatting.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Column.py to Column.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/ExcelFormula.py to ExcelFormula.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Worksheet.py to Worksheet.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Bitmap.py to Bitmap.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/CompoundDoc.py to CompoundDoc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Style.py to Style.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/ExcelFormulaLexer.py to ExcelFormulaLexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/ExcelFormulaParser.py to ExcelFormulaParser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Cell.py to Cell.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/antlr.py to antlr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/BIFFRecords.py to BIFFRecords.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/ExcelMagic.py to ExcelMagic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/Utils.py to Utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlwt/UnicodeUtils.py to UnicodeUtils.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlwt.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlwt.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlwt.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlwt.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlwt.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating 'dist/xlwt-1.2.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing xlwt-1.2.0-py2.7.egg
+removing '/usr/local/lib/python2.7/dist-packages/xlwt-1.2.0-py2.7.egg' (and everything under it)
+creating /usr/local/lib/python2.7/dist-packages/xlwt-1.2.0-py2.7.egg
+Extracting xlwt-1.2.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+xlwt 1.2.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/xlwt-1.2.0-py2.7.egg
+Processing dependencies for xlwt==1.2.0
+Finished processing dependencies for xlwt==1.2.0
+<module 'ExcelLibrary' from '/usr/local/lib/python2.7/dist-packages/ExcelLibrary/__init__.pyc'>
+Installed Successfully!
