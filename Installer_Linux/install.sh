@@ -4,21 +4,21 @@ set -e
 
 sudo cp chromedriver /usr/bin
 echo "Installing Pybot"
-cd Robot-Framework/robotframework-3.0.1
+cd dpd/Robot-Framework/robotframework-3.0.1
 sudo python setup.py install
 pybot --version | grep "Robot Framework"
 echo "Robot Framework installed"   
 echo "========================================"
 echo "========================================"
 
-cd ../..
+cd ../../wxpython2.8
 sudo dpkg -i libwxbase2.8.deb libgstreamer-plugins-base0.10.deb libwxgtk2.8.deb libwxgtk-media2.8.deb libgstreamer0.10.deb 28.deb  
 dpkg --list | grep "python-wxgtk2.8"
 echo "wxgtk2.8 installed"
 echo "========================================"
 echo "========================================"
 
-cd Robot-Framework/robotframework-ride-1.5.2.1
+cd ../Robot-Framework/robotframework-ride-1.5.2.1
 sudo python setup.py install
 find ~/ -name ride.py | grep "build" 
 echo "RIDE installed"
